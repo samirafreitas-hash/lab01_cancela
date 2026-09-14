@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "author": "Lab 01 - Portas Digitais e Abstração de Hardware",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp",  "top": 0,    "left": 0,   "attrs": {} },
+
+    { "type": "wokwi-pushbutton", "id": "sw_entrada",   "top": -120, "left": 260, "attrs": { "color": "green" } },
+    { "type": "wokwi-pushbutton", "id": "sw_passagem",  "top": -120, "left": 340, "attrs": { "color": "green" } },
+    { "type": "wokwi-pushbutton", "id": "sw_aberta",    "top": -120, "left": 420, "attrs": { "color": "blue"  } },
+    { "type": "wokwi-pushbutton", "id": "sw_fechada",   "top": -120, "left": 500, "attrs": { "color": "blue"  } },
+    { "type": "wokwi-pushbutton", "id": "sw_emergencia","top": -120, "left": 580, "attrs": { "color": "red"   } },
+
+    { "type": "wokwi-led", "id": "led_abrir",     "top": 120, "left": 260, "attrs": { "color": "yellow" } },
+    { "type": "wokwi-led", "id": "led_fechar",    "top": 120, "left": 320, "attrs": { "color": "yellow" } },
+    { "type": "wokwi-led", "id": "led_verde",     "top": 120, "left": 380, "attrs": { "color": "green"  } },
+    { "type": "wokwi-led", "id": "led_vermelho",  "top": 120, "left": 440, "attrs": { "color": "red"    } },
+
+    { "type": "wokwi-resistor", "id": "r_abrir",    "top": 160, "left": 260, "attrs": { "value": "330" } },
+    { "type": "wokwi-resistor", "id": "r_fechar",   "top": 160, "left": 320, "attrs": { "value": "330" } },
+    { "type": "wokwi-resistor", "id": "r_verde",    "top": 160, "left": 380, "attrs": { "value": "330" } },
+    { "type": "wokwi-resistor", "id": "r_vermelho", "top": 160, "left": 440, "attrs": { "value": "330" } }
+  ],
+  "connections": [
+    ["esp:D4",  "sw_entrada:2.l",    "green",  [ "v-20" ] ],
+    ["sw_entrada:1.l",  "esp:3V3",   "green",  [ "v-40" ] ],
+
+    ["esp:D5",  "sw_passagem:2.l",   "green",  [ "v-20" ] ],
+    ["sw_passagem:1.l", "esp:3V3",   "green",  [ "v-40" ] ],
+
+    ["esp:D18", "sw_aberta:2.l",     "blue",   [ "v-20" ] ],
+    ["sw_aberta:1.l",   "esp:GND.1", "black",  [ "v-40" ] ],
+
+    ["esp:D19", "sw_fechada:2.l",    "blue",   [ "v-20" ] ],
+    ["sw_fechada:1.l",  "esp:GND.1", "black",  [ "v-40" ] ],
+
+    ["esp:D21", "sw_emergencia:2.l", "red",    [ "v-20" ] ],
+    ["sw_emergencia:1.l","esp:GND.1","black",  [ "v-40" ] ],
+
+    ["esp:D22", "led_abrir:A",      "yellow", [ "v20" ] ],
+    ["led_abrir:C",     "r_abrir:1",    "black", [] ],
+    ["r_abrir:2",        "esp:GND.2",   "black", [] ],
+
+    ["esp:D23", "led_fechar:A",     "yellow", [ "v20" ] ],
+    ["led_fechar:C",    "r_fechar:1",   "black", [] ],
+    ["r_fechar:2",       "esp:GND.2",   "black", [] ],
+
+    ["esp:D25", "led_verde:A",      "green",  [ "v20" ] ],
+    ["led_verde:C",     "r_verde:1",    "black", [] ],
+    ["r_verde:2",        "esp:GND.2",   "black", [] ],
+
+    ["esp:D26", "led_vermelho:A",   "red",    [ "v20" ] ],
+    ["led_vermelho:C",  "r_vermelho:1", "black", [] ],
+    ["r_vermelho:2",     "esp:GND.2",   "black", [] ]
+  ]
+}
