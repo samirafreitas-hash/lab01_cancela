@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Página-1" id="ZosySBhzUSy9crjOljVh">
-    <mxGraphModel dx="988" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="visão de desenvolvimento " id="ZosySBhzUSy9crjOljVh">
+    <mxGraphModel dx="1018" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,10 @@
             <mxPoint x="340" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ICnY8wgs3o0fwqH_0wf0-2" connectable="0" parent="ICnY8wgs3o0fwqH_0wf0-1" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ICnY8wgs3o0fwqH_0wf0-2" connectable="0" parent="ICnY8wgs3o0fwqH_0wf0-1" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Módulo&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ICnY8wgs3o0fwqH_0wf0-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
@@ -19,8 +21,10 @@
             <mxPoint x="340" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ICnY8wgs3o0fwqH_0wf0-4" connectable="0" parent="ICnY8wgs3o0fwqH_0wf0-3" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ICnY8wgs3o0fwqH_0wf0-4" connectable="0" parent="ICnY8wgs3o0fwqH_0wf0-3" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Responsabilidade&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ICnY8wgs3o0fwqH_0wf0-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
@@ -28,8 +32,10 @@
             <mxPoint x="340" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ICnY8wgs3o0fwqH_0wf0-6" connectable="0" parent="ICnY8wgs3o0fwqH_0wf0-5" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ICnY8wgs3o0fwqH_0wf0-6" connectable="0" parent="ICnY8wgs3o0fwqH_0wf0-5" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Reusabilidade" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ICnY8wgs3o0fwqH_0wf0-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
@@ -37,21 +43,107 @@
             <mxPoint x="340" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ICnY8wgs3o0fwqH_0wf0-8" connectable="0" parent="ICnY8wgs3o0fwqH_0wf0-7" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ICnY8wgs3o0fwqH_0wf0-8" connectable="0" parent="ICnY8wgs3o0fwqH_0wf0-7" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Portabilidade" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ICnY8wgs3o0fwqH_0wf0-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="180" x="340" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="ICnY8wgs3o0fwqH_0wf0-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="ICnY8wgs3o0fwqH_0wf0-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Máquina de estados e a regras da cancela&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="180" x="340" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="ICnY8wgs3o0fwqH_0wf0-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="ICnY8wgs3o0fwqH_0wf0-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Alta — reutilizável&lt;/div&gt;&lt;div&gt;em qualquer MCU&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="340" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="ICnY8wgs3o0fwqH_0wf0-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="ICnY8wgs3o0fwqH_0wf0-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Total — nenhuma&lt;/div&gt;&lt;div&gt;dependência de HW&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="340" y="360" as="geometry" />
         </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="180" x="520" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="180" x="700" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="420" as="sourcePoint" />
+            <mxPoint x="340" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-4" connectable="0" parent="c6f4cS0Pav02rqfSj1eL-3" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Custo(dev.)" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Baixo — só lógica,&lt;div&gt;1 dev. suficiente&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="340" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="480" as="sourcePoint" />
+            <mxPoint x="340" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-7" connectable="0" parent="c6f4cS0Pav02rqfSj1eL-6" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Consumo&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Desprezível" vertex="1">
+          <mxGeometry height="60" width="180" x="340" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Aplicação&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Serviços&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Hardware&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="760" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sensores/ atuadores de domínio&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="180" x="520" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Média — depende do mapa de sinais" vertex="1">
+          <mxGeometry height="60" width="180" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Alta — só troca hardware.h" vertex="1">
+          <mxGeometry height="60" width="180" x="520" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Desprezível" vertex="1">
+          <mxGeometry height="60" width="180" x="520" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Conf./ leitura/ escrita de GPIO via ESP-IDF" vertex="1">
+          <mxGeometry height="60" width="180" x="700" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Baixa — específico do ESP32" vertex="1">
+          <mxGeometry height="60" width="180" x="700" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Nenhuma — é a camada a trocar" vertex="1">
+          <mxGeometry height="60" width="180" x="700" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="180" x="700" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mínimo — GPIO digital" vertex="1">
+          <mxGeometry height="60" width="180" x="700" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Baixo/ Médio&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="545" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="c6f4cS0Pav02rqfSj1eL-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Baixo — poucas&lt;/div&gt;&lt;div&gt;funções, bem isoladas&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="720" y="435" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Tp3CBVsXEuWlBWtAuNp2" name="Página-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
